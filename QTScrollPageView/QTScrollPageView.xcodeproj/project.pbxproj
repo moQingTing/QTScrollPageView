@@ -14,6 +14,7 @@
 		045A2A061F46DFD200F682AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A2A041F46DFD200F682AB /* LaunchScreen.storyboard */; };
 		045A2A111F46DFD300F682AB /* QTScrollPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A2A101F46DFD300F682AB /* QTScrollPageViewTests.swift */; };
 		045A2A1C1F46DFD300F682AB /* QTScrollPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A2A1B1F46DFD300F682AB /* QTScrollPageViewUITests.swift */; };
+		045A2A2A1F46E3AE00F682AB /* ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A2A291F46E3AE00F682AB /* ScrollSegmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		045A2A171F46DFD300F682AB /* QTScrollPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTScrollPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A2A1B1F46DFD300F682AB /* QTScrollPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTScrollPageViewUITests.swift; sourceTree = "<group>"; };
 		045A2A1D1F46DFD300F682AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A2A291F46E3AE00F682AB /* ScrollSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSegmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				045A2A021F46DFD200F682AB /* Assets.xcassets */,
 				045A2A041F46DFD200F682AB /* LaunchScreen.storyboard */,
 				045A2A071F46DFD200F682AB /* Info.plist */,
+				045A2A291F46E3AE00F682AB /* ScrollSegmentView.swift */,
 			);
 			path = QTScrollPageView;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045A2A2A1F46E3AE00F682AB /* ScrollSegmentView.swift in Sources */,
 				045A29FE1F46DFD200F682AB /* ViewController.swift in Sources */,
 				045A29FC1F46DFD200F682AB /* AppDelegate.swift in Sources */,
 			);
