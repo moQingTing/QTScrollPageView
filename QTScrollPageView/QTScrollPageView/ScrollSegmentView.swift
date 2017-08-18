@@ -66,7 +66,33 @@ class ScrollSegmentView: UIView {
     func titleLabelOnClick(tapGes:UITapGestureRecognizer){
         
     }
-    
+    ///设置label 的位置
+    func setupLabelsPosition(){
+        var titleX:CGFloat = 0.0
+        let titleY:CGFloat = 0.0
+        var titleW:CGFloat = 0.0
+        let titleH:CGFloat = bounds.size.height
+        for (index,label) in labelsArray.enumerated(){
+            titleW = titlesWidthArray[index]
+            titleX =
+        }
+    }
 
     
+}
+
+
+
+public struct SegmentStyle{
+    //是否显示遮盖
+    public var showCover = false
+    //是否显示下划线
+    public var showLine = false
+    //下面的滚动条的高度默认为2
+    public var scrollLineHeight:CGFloat = 2
+    //下面的滚动条的颜色
+    public var scrollLineColor = UIColor.brown
+    //遮盖的背景颜色
+    public var coverBackgroundColor = UIColor.lightGray
+    //
 }
